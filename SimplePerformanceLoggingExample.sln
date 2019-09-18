@@ -1,0 +1,28 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplePerformanceLoggingExample", "SimplePerformanceLoggingExample\SimplePerformanceLoggingExample.csproj", "{D0A0177D-1FD4-4B94-9F80-C4D15BFDEDF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Program", "01 - Program", "{AAB56DFB-4BD5-45E9-938D-142ACA154C2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Solution Items", "02 - Solution Items", "{4A116B64-1775-49F2-B17F-7434CCAFC08B}"
+	ProjectSection(SolutionItems) = preProject
+		LICENCE = LICENCE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0A0177D-1FD4-4B94-9F80-C4D15BFDEDF5}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{D0A0177D-1FD4-4B94-9F80-C4D15BFDEDF5}.Debug|anycpu.Build.0 = Debug|anycpu
+		{D0A0177D-1FD4-4B94-9F80-C4D15BFDEDF5}.Release|anycpu.ActiveCfg = Release|anycpu
+		{D0A0177D-1FD4-4B94-9F80-C4D15BFDEDF5}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D0A0177D-1FD4-4B94-9F80-C4D15BFDEDF5} = {AAB56DFB-4BD5-45E9-938D-142ACA154C2D}
+	EndGlobalSection
+EndGlobal
