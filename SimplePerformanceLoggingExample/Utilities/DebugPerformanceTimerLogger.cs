@@ -56,9 +56,9 @@ namespace DarkIce.Toolkit.Core.Utilities
 #endif
         }
 
+        [Conditional("DEBUG")]
         public static void GetSummary()
         {
-#if DEBUG
             Debug.WriteLine("");
             Debug.WriteLine("PERFORMANCE SUMMARY");
             Debug.WriteLine("");
@@ -74,7 +74,6 @@ namespace DarkIce.Toolkit.Core.Utilities
             Debug.WriteLine("------------------------------------");
 
             _log.Clear();
-#endif
         }
 
         private class MutableKeyValuePair<KeyType, ValueType>
